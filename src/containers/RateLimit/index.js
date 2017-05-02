@@ -47,29 +47,7 @@ export class RateLimitContainer extends Component {
 
     return (
       <div className="u-flex u-flexAlignItemsCenter">
-      { /*
-        <p className={css(styles.RateLimitContainer_label)}>API requests</p>
-        <div
-          className={`${css(styles.RateLimitContainer)} u-flex`}
-        >
-          <div className={css(styles.RateLimitContainer_item)}>
-            <RateLimit
-              label="Profile"
-              remaining={coreRemaining}
-              limit={coreLimit}
-              reset={coreReset}
-            />
-          </div>
-          <div className={css(styles.RateLimitContainer_item)}>
-            <RateLimit
-              label="Search"
-              remaining={searchRemaining}
-              limit={searchLimit}
-              reset={searchReset}
-            />
-          </div>
-        </div> jason
-        */ }
+     
       </div>
     );
   }
