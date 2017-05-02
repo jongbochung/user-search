@@ -22,7 +22,7 @@ view their profiles on Github.
 ## Running locally
 
 1. Clone the repository
-1. Open dev.config.js and Remove line 12host : '0.0.0.0',)
+1. Open dev.config.js and Remove line 12(host : '0.0.0.0',)
 1. Install dependences `yarn`
 1. Run the server `yarnpkg run start`
 1. Visit `http://localhost:3001/github-user-search/` (note the trailing slash)
