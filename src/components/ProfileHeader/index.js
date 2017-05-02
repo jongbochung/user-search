@@ -72,9 +72,9 @@ export default class ProfileHeader extends Component {
         </div>
         <div className="u-sm-flexGrow1 u-sm-flex u-sm-flexCol">
           <div className={css(styles.ProfileHeader_wrapTitle)}>
-          <b>Email</b> { /* jason */ }
+          <b>Email</b>
             <ProfileTitle
-              email={email}  // jason
+              email={email}  
               username={login}
               userLink={html_url}
             />
@@ -82,16 +82,14 @@ export default class ProfileHeader extends Component {
 
           <div className={css(styles.ProfileHeader_wrapBio)}>
             <Bio
-               // text={bio} jason
+               
             />
           </div>
 
           <div className={css(styles.ProfileHeader_wrapUserInfo)}>
-            <b>Location</b> { /* jason */ }
+            <b>Location</b>
             <ProfileInfo
               location={location}
-              //company={company} jason
-              //blog={blog} jason
             />
           </div>
           <div className="u-sm-flexExpandTop">
