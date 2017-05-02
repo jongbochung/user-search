@@ -2,8 +2,8 @@
   "name": "github-user-search",
   "version": "3.0.0",
   "main": "index.js",
-  "repository": "git@github.com:simonsmith/github-user-search.git",
-  "author": "Simon Smith <simonsmith@users.noreply.github.com>",
+  "repository": "git@github.com/jongbochung/user-search.git",
+  "author": "Jason chung",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
