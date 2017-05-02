@@ -10,7 +10,7 @@ import 'suitcss-utils-flex/lib/flex.css';
 type Props = {
   userLink: string,
   username: string,
-  email: string | null, // jason1
+  email: string | null, 
 };
 
 export default function ProfileTitle(props: Props) {
@@ -27,7 +27,6 @@ export default function ProfileTitle(props: Props) {
         : null
       }
       <p className={css(styles.ProfileTitle_username)}>
-         { /* <a href={userLink}>@{username}</a> -- jason */ }
       </p>
     </div>
   );
