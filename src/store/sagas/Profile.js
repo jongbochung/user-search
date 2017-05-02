@@ -28,7 +28,7 @@ const pickProfileData = flow(
     'public_gists',
     'public_repos',
     'repos_url',
-    'email', // jason
+    'email',
   ])
 );
 
