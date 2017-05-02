@@ -1,5 +1,5 @@
 # Github User Search
-Search and view users via the Github API - http://ec2-13-54-222-34.ap-southeast-2.compute.amazonaws.com:3001/github-user-search/
+Search and view users via the Github API - http://www.githubusersearch.zz.am/
 
 Requests are cached in session storage to limit the use of the API.
 
