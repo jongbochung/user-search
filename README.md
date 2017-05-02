@@ -32,7 +32,7 @@ view their profiles on Github.
 ### API limit
 
 When running the app, you can export a [personal
-access token](https://github.com/blog/1509-personal-api-tokens) and this will be
+access token](https://github.com/settings/tokens) and this will be
 sent along in any API calls to increase the limit:
 
 ```
