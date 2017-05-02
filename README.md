@@ -16,7 +16,8 @@ view their profiles on Github.
 1. Clone the repository with git command
 1. Install dependences `yarn`
 1. Run the server `yarnpkg run start`
-1. Visit `http://localhost:3001/github-user-search/` (note the trailing slash)
+1. Visit `http://[aws public DNS that you create]:3001/github-user-search/` (note the trailing slash)
+
 
 ## Running locally
 
@@ -24,7 +25,7 @@ view their profiles on Github.
 1. Open dev.config.js and Remove line 12host : '0.0.0.0',)
 1. Install dependences `yarn`
 1. Run the server `yarnpkg run start`
-1. Visit `http://[aws public DNS that you create]:3001/github-user-search/` (note the trailing slash)
+1. Visit `http://localhost:3001/github-user-search/` (note the trailing slash)
 
 
 
