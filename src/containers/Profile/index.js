@@ -71,28 +71,6 @@ export class ProfileContainer extends Component {
     return (
       <div className={css(styles.Profile_container)}>
         <ProfileHeader {...this.props.userProfile} />
-{ /*
-        <div className={`${css(styles.Profile_content)} Grid Grid--withGutter`}>
-          <div className={`${css(styles.Profile_repos)} Grid-cell u-sm-size1of2`}>
-            <h2 className={css(styles.Profile_contentTitle)}>Repositories</h2>
-            <ItemList
-              entities={repoEntities}
-              ids={repoIds}
-              isPending={repoIsPending}
-              component={Repo}
-            />
-          </div>
-          <div className="Grid-cell u-sm-size1of2">
-            <h2 className={css(styles.Profile_contentTitle)}>Followers</h2>
-            <ItemList
-              entities={userEntities}
-              ids={followerIds}
-              isPending={followerIsPending}
-              component={User}
-            />
-          </div>
-        </div>
-jason */ }      
       </div>
     );
   }
