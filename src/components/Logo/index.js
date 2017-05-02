@@ -25,12 +25,7 @@ export default function Logo() {
           GitHub User Search
         </Link>
       </h1>
-      { /*}
-      <p className={css(styles.Logo_subTitle)}>
-        Browse users and their profiles via <a href="https://developer.github.com/v3/">the GitHub API</a>
-      </p>   jason
-      */ }
-      View the <a href="javascript:void(window.open('https://github.com/jongbochung/user-search','GitHub user-search'))">source on GitHub</a>
+        View the <a href="javascript:void(window.open('https://github.com/jongbochung/user-search','GitHub user-search'))">source on GitHub</a>
     </div>
   );
 }
